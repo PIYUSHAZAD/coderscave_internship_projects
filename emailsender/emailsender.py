@@ -10,7 +10,7 @@ from email import encoders
 # ----------------- Main Screen -----------------
 app = Tk()
 app.geometry("610x410")
-app.title("E-Mail Sender | Rohith")
+app.title("E-Mail Sender")
 
 # ----------------- Font Details -----------------
 font_style = ('Times', 12)
@@ -86,7 +86,7 @@ def reset():
     print(Fore.LIGHTCYAN_EX + "All Fields are Cleared 👍" + Fore.RESET)
 
 # ----------------- Heading -----------------
-label = Label(app, text="Email App - Rohith", font=heading_style, fg='blue')
+label = Label(app, text="Email App ", font=heading_style, fg='blue')
 label.grid(row=0, column=1, sticky=W, padx=30, pady=(0, 10), columnspan=2)
 
 # ----------------- Additional Text -----------------
